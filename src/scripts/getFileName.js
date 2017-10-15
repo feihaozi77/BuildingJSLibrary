@@ -5,3 +5,4 @@ function getFileName(path){
 
 var result = getFileName('a/v/c');
 console.log(result);
+
