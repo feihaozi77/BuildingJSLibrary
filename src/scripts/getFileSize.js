@@ -1,11 +1,11 @@
-var XMLHttpRequest = require('w3c-xmlhttprequest').XMLHttpRequest;
+module.exports = {
 
-function readTextFile(file)
-{
+    readTextFile: function(file)
+    {
     const fs = require('fs');
     const stats = fs.statSync(file);
     console.log(stats.size);
     return stats.size;
     
-}
-readTextFile('/Users/haoyuyang/BuildingJSLibrary/src/constant/static.txt');
+    }
+};
