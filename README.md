@@ -9,8 +9,8 @@ If you are using Visual Studio Code you can run this project from the built-in n
 
 For the sha1 digest, a library called js-sha1 is being used, written by emn178. The library can be installed with Bower with the command
 
-'bower install js-sha1'
+`bower install js-sha1`
 
 Or with node.js, with the command 
 
-'npm install js-sha1'
+`npm install js-sha1`
