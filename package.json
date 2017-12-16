@@ -6,11 +6,12 @@
   "dependencies": {
     "eslint": "^4.8.0",
     "js-sha1": "^0.4.1",
+    "mocha": "^4.0.1",
     "w3c-xmlhttprequest": "^2.1.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
