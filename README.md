@@ -28,7 +28,8 @@ Or with node.js, with the command
 ## code example
 **new functions should be implemented in the scripts folder**
 **your new function should return new module by using the .exports**
-`var sha1 = require('../../node_modules/js-sha1/src/sha1');
+```javascript
+var sha1 = require('../../node_modules/js-sha1/src/sha1');
 
 module.exports = {
     getFileSha1: function(myFile, callback)
@@ -40,4 +41,5 @@ module.exports = {
              callback(sha1(data));
         });
     }
-};`
+};
+```
