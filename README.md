@@ -1,5 +1,11 @@
 # BuildingJSLibrary
+*This Library holds functions for performing common Javascript tasks, including interating with local 
+file system, getting filename .etc*
 
+## Build Status
+[![Build Status](https://travis-ci.org/feihaozi77/BuildingJSLibrary.svg?branch=master)](https://travis-ci.org/feihaozi77/BuildingJSLibrary)
+
+## How to contribute
 1 clone the repo using git clone <br>
 2 cd into BuildingJSLibrary folder <br>
 3 run npm install to install all dependencies <br>
@@ -11,7 +17,7 @@ If you are using Visual Studio Code you can run this project from the built-in n
 
 Once you run successfully, the script output will be displayed in the debug console pane on the buttom 
 
-
+## About the sh1 digest function
 For the sha1 digest, a library called js-sha1 is being used, written by emn178. The library can be installed with Bower with the command
 
 `bower install js-sha1`
