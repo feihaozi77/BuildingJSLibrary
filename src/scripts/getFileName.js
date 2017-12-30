@@ -1,3 +1,11 @@
+/**
+ * @file
+ * This file exports module containing function for 
+ * getting the 
+
+ * @param {string} path
+ *   path of the file
+ */
 module.exports = {
     
         getFileName: function(path)
